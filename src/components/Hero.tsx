@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/site";
 import {
@@ -110,8 +111,17 @@ function HeroVisual() {
   return (
     <div className="mt-12 sm:mt-14 lg:mt-20">
       <div className="relative rounded-3xl overflow-hidden border border-ink-100 shadow-soft">
-        <div className="relative w-full h-[260px] sm:h-[320px] lg:h-[420px]">
-          <HeroPlaceholder />
+        <div className="relative w-full h-[280px] sm:h-[370px] lg:h-[440px]">
+          <Image
+            src="/images/hero/main.jpg"
+            alt="Qashqadaryoda LED natijnoy potolok o'rnatish xizmati"
+            fill
+            priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1200px"
+            className="object-cover object-[center_40%]"
+          />
+
+          <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-black/40 to-transparent pointer-events-none" />
 
           <div className="absolute left-4 right-4 bottom-4 sm:left-8 sm:right-8 sm:bottom-8 flex flex-col sm:flex-row items-stretch sm:items-end justify-between gap-3">
             <div className="glass-card rounded-2xl px-4 py-3.5 sm:px-5 sm:py-4 max-w-md">
@@ -138,41 +148,3 @@ function HeroVisual() {
   );
 }
 
-function HeroPlaceholder() {
-  return (
-    <div className="absolute inset-0" aria-hidden>
-      <div className="absolute inset-0 bg-gradient-to-br from-white via-brand-50/70 to-brand-100/80" />
-
-      <div className="absolute inset-0 [background:radial-gradient(ellipse_70%_55%_at_50%_18%,rgba(59,149,246,0.22),transparent_70%)]" />
-
-      <div
-        className="absolute inset-0 opacity-[0.22]"
-        style={{
-          backgroundImage:
-            "radial-gradient(rgba(37,117,235,0.6) 1px, transparent 1px)",
-          backgroundSize: "22px 22px",
-        }}
-      />
-
-      <div className="absolute inset-x-8 top-10 sm:top-14 flex flex-col gap-3 sm:gap-4 opacity-70">
-        <div className="h-px bg-gradient-to-r from-transparent via-brand-300 to-transparent" />
-        <div className="h-px bg-gradient-to-r from-transparent via-brand-300/70 to-transparent" />
-        <div className="h-px bg-gradient-to-r from-transparent via-brand-300/40 to-transparent" />
-      </div>
-
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[58%] flex items-center justify-center">
-        <div className="relative">
-          <div className="h-2 w-2 rounded-full bg-brand-600 shadow-[0_0_20px_rgba(37,117,235,0.65)]" />
-          <div className="absolute inset-0 m-auto h-16 w-px bg-gradient-to-b from-brand-400/70 to-transparent translate-y-2" />
-          <div className="absolute left-1/2 -translate-x-1/2 mt-16 flex flex-col items-center gap-0.5">
-            <div className="h-3 w-12 rounded-full bg-gradient-to-b from-brand-200 to-brand-100 shadow-soft" />
-            <div className="h-2 w-9 rounded-full bg-gradient-to-b from-brand-200/80 to-brand-50" />
-            <div className="h-1.5 w-6 rounded-full bg-brand-200/60" />
-          </div>
-        </div>
-      </div>
-
-      <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-white/85 via-white/40 to-transparent" />
-    </div>
-  );
-}

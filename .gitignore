@@ -33,3 +33,6 @@ next-env.d.ts
 
 # tooling
 .claude/
+
+# original uncompressed images
+public/images/hero/original-main.jpg

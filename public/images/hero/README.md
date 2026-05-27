@@ -1,28 +1,42 @@
 # Hero rasm
 
-**Hozircha Hero komponentida real rasm ishlatilmaydi.** Bosh sahifa hero qismi premium abstract visual (gradient + dot grid + glassmorphism cards) bilan chiqadi. Mijoz xizmatni rasm orqali emas, H1 + subtitle + CTA orqali tushunadi.
+Hero komponentida `next/image` bilan `public/images/hero/main.jpg` ko'rsatiladi.
 
-`main.jpg` yoki `main.png` papkada qolsa ham, komponent ularni o'qimaydi.
+## Hozirgi rasm
 
-## Qachon real rasm ulash mumkin
+- **Fayl:** `main.jpg` (optimallashtirilgan)
+- **O'lcham:** 1800x1344 px
+- **Hajm:** ~288 KB (JPG, quality 90)
+- **Original:** `original-main.jpg` (~6.9 MB) — backup sifatida saqlanadi
 
-Faqat **juda sifatli landscape xona + potolok rasmi** topilganda. Talablar:
+## Yangi rasm qo'yish uchun talablar
 
 - **Yo'nalish:** gorizontal landscape (16:9 yoki shunga yaqin)
-- **O'lcham:** 1600×900 yoki 1920×1080 px
-- **Format:** JPG yoki WEBP, ~200–400 KB
+- **O'lcham:** 1600x900 yoki 1800x1000 px
+- **Format:** JPG yoki WebP
+- **Hajm:** 200–500 KB
 - **Mazmun:**
   - Xona ichi ko'rinsin (devor, mebel, deraza yorug'i)
   - Shiftda natijnoy potolok aniq ko'rinsin (matoviy, glyans, LED yoki dizayn)
   - Chandelier yoki LED kontur bo'lsa yanada yaxshi
   - Real, professional yoritilgan ish
 
+## Optimallash script
+
+```bash
+node -e "
+const sharp = require('sharp');
+sharp('public/images/hero/original-main.jpg')
+  .resize({ width: 1800, withoutEnlargement: true })
+  .jpeg({ quality: 90 })
+  .toFile('public/images/hero/main.jpg')
+  .then(info => console.log(info));
+"
+```
+
 ## Nima qilmaslik kerak
 
 - Gul yoki bezakning close-up rasmlari
 - Portret (vertikal) telefon rasmlari
 - AI generated, stock-ko'rinishli yoki past sifatli rasmlar
-
-## Qayta yoqish
-
-Rasm topilganda `src/components/Hero.tsx` ichidagi `HeroVisual` funksiyasiga `next/image` chaqiruvini qaytarish kifoya. Avvalgi versiya kommit tarixida bor.
+- 1 MB dan katta fayllarni commit qilish (avval optimallang)
