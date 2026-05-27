@@ -76,13 +76,15 @@ export default function Hero({
                 <ArrowRightIcon className="h-4 w-4" />
               </Link>
             ) : showPortfolioLink ? (
-              <Link
-                href="/ishlarimiz"
+              <a
+                href="https://t.me/vashpotolokuz"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-ghost w-full sm:w-auto"
               >
                 Ishlarimizni ko&apos;rish
                 <ArrowRightIcon className="h-4 w-4" />
-              </Link>
+              </a>
             ) : null}
           </div>
 
