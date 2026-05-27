@@ -8,9 +8,12 @@ const loc = getLocationBySlug("natijnoy-patolok-shahrisabz")!;
 export const metadata: Metadata = buildMetadata({
   title: "Natijnoy potolok Shahrisabz | Qashqadaryo bo'ylab xizmat",
   description:
-    "Shahrisabz shahrida natijnoy potolok ustasi: matoviy, glyans, LED yoritgichli variantlar. O'lchov bepul, montaj 1 kunda, yozma kafolat.",
+    "Shahrisabzda natijnoy potolok o'rnatish xizmati. Hovli, uy va zamonaviy xonadonlar uchun. Xona razmerini Telegramda yuboring — narxini hisoblab beramiz.",
   path: "/natijnoy-patolok-shahrisabz",
-  keywords: loc.keywords,
+  keywords: [
+    ...loc.keywords,
+    "natijnoy potolok shahrisabz narxi",
+  ],
 });
 
 export default function Page() {

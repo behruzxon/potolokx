@@ -115,7 +115,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {site.legalName}. Barcha huquqlar himoyalangan.
           </p>
           <p className="text-ink-400">
-            Natijnoy potolok / натяжной потолок Qashqadaryo bo&apos;ylab
+            Natijnoy potolok · natijnoy patalok · натяжной потолок — Qashqadaryo bo&apos;ylab
           </p>
         </div>
       </div>

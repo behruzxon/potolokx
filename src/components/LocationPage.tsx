@@ -71,6 +71,18 @@ export default function LocationPage({ location }: { location: Location }) {
               ))}
             </ul>
 
+            <div className="mt-8 flex flex-wrap gap-3 text-sm">
+              <Link href="/narxlar" className="text-brand-700 font-medium hover:underline">
+                Natijnoy potolok narxlari →
+              </Link>
+              <Link href="/ishlarimiz" className="text-brand-700 font-medium hover:underline">
+                Qilgan ishlarimiz →
+              </Link>
+              <Link href="/aloqa" className="text-brand-700 font-medium hover:underline">
+                Bog&apos;lanish →
+              </Link>
+            </div>
+
           </div>
 
           <aside className="card !p-7">

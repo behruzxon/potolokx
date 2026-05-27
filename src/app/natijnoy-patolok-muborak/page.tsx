@@ -3,13 +3,13 @@ import LocationPage from "@/components/LocationPage";
 import { getLocationBySlug } from "@/lib/locations";
 import { buildMetadata } from "@/lib/seo";
 
-const loc = getLocationBySlug("natijnoy-patolok-qarshi")!;
+const loc = getLocationBySlug("natijnoy-patolok-muborak")!;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Qarshi | Narx, montaj va kafolat",
+  title: "Natijnoy potolok Muborak | O'rnatish, narx va kafolat",
   description:
-    "Qarshida natijnoy potolok o'rnatish xizmati. Xona razmerini Telegramda yuboring, narxini tez hisoblab beramiz. Toza montaj va kafolat.",
-  path: "/natijnoy-patolok-qarshi",
+    "Muborak shahri va tumanida natijnoy potolok o'rnatamiz. Uy-joy va ofis uchun zamonaviy shift yechimi. O'lchov bepul, narxni Telegramda hisoblang.",
+  path: "/natijnoy-patolok-muborak",
   keywords: loc.keywords,
 });
 

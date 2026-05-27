@@ -6,9 +6,9 @@ import { buildMetadata } from "@/lib/seo";
 const loc = getLocationBySlug("natijnoy-patolok-yakkabog")!;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Yakkabog' | PotolokX — montaj va kafolat",
+  title: "Natijnoy potolok Yakkabog' | O'rnatish va kafolat — PotolokX",
   description:
-    "Yakkabog' tumanida natijnoy potolok o'rnatamiz. Tez, toza, yozma kafolat bilan. Telegram bot orqali narxni daqiqa ichida hisoblang.",
+    "Yakkabog' tumanida natijnoy potolok o'rnatish. O'lchovga bepul chiqamiz, material va montaj kafolati. Telegramda razmer yuboring.",
   path: "/natijnoy-patolok-yakkabog",
   keywords: loc.keywords,
 });

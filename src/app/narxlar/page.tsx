@@ -19,15 +19,18 @@ import {
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok narxlari Qashqadaryo",
+  title: "Natijnoy potolok narxlari | Qarshi va Qashqadaryo bo'ylab",
   description:
-    "Qarshi va Qashqadaryo bo'ylab natijnoy potolok narxini tez hisoblang. Xona razmerini Telegramda yuboring — material, montaj va dizayn bo'yicha maslahat beramiz.",
+    "Qarshi va Qashqadaryo bo'ylab natijnoy potolok narxini tez hisoblang. Xona razmerini Telegramda yuboring — material, montaj va dizayn bo'yicha maslahat beramiz. Narx m² hisobida.",
   path: "/narxlar",
   keywords: [
     "natijnoy potolok narxi",
+    "natijnoy patalok narxi",
     "natijnoy patalok qarshi narxi",
     "natijnoy potolok m2 narx",
     "натяжной потолок цена карши",
+    "натяжной потолок нархи",
+    "potolok narxi qashqadaryo",
   ],
 });
 
@@ -131,7 +134,11 @@ const priceFaq = [
   },
   {
     q: "Hudud bo'yicha narx farq qiladimi?",
-    a: "Qashqadaryo bo'ylab bir xil narxda ishlaymiz. Yetib borish narxi PotolokXning hisobida.",
+    a: "Qashqadaryo bo'ylab bir xil narxda ishlaymiz — Qarshi, Shahrisabz, Kitob yoki Muborak farqi yo'q. Yetib borish narxi PotolokXning hisobida.",
+  },
+  {
+    q: "Xona razmerini Telegramda yuborsam bo'ladimi?",
+    a: "Ha, Telegram botga xona uzunligi va enini yuboring. Material turini tanlang — daqiqa ichida narx chiqadi. Bot: t.me/vashpotolokbot.",
   },
 ];
 

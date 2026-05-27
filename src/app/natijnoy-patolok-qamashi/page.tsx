@@ -3,13 +3,13 @@ import LocationPage from "@/components/LocationPage";
 import { getLocationBySlug } from "@/lib/locations";
 import { buildMetadata } from "@/lib/seo";
 
-const loc = getLocationBySlug("natijnoy-patolok-qarshi")!;
+const loc = getLocationBySlug("natijnoy-patolok-qamashi")!;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Qarshi | Narx, montaj va kafolat",
+  title: "Natijnoy potolok Qamashi tumani | PotolokX — montaj va kafolat",
   description:
-    "Qarshida natijnoy potolok o'rnatish xizmati. Xona razmerini Telegramda yuboring, narxini tez hisoblab beramiz. Toza montaj va kafolat.",
-  path: "/natijnoy-patolok-qarshi",
+    "Qamashi tumanida natijnoy potolok o'rnatish xizmati. Matoviy, glyans va LED potolok variantlari. Xona razmerini Telegramda yuboring — narxini tez hisoblab beramiz.",
+  path: "/natijnoy-patolok-qamashi",
   keywords: loc.keywords,
 });
 

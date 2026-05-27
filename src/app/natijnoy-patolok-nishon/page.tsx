@@ -3,13 +3,13 @@ import LocationPage from "@/components/LocationPage";
 import { getLocationBySlug } from "@/lib/locations";
 import { buildMetadata } from "@/lib/seo";
 
-const loc = getLocationBySlug("natijnoy-patolok-qarshi")!;
+const loc = getLocationBySlug("natijnoy-patolok-nishon")!;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Qarshi | Narx, montaj va kafolat",
+  title: "Natijnoy potolok Nishon tumani | Qashqadaryo bo'ylab xizmat",
   description:
-    "Qarshida natijnoy potolok o'rnatish xizmati. Xona razmerini Telegramda yuboring, narxini tez hisoblab beramiz. Toza montaj va kafolat.",
-  path: "/natijnoy-patolok-qarshi",
+    "Nishon tumanida natijnoy potolok o'rnatish. Hovli va xonadonlar uchun sifatli material va toza montaj. Telegramda razmer yuboring — narx tez chiqadi.",
+  path: "/natijnoy-patolok-nishon",
   keywords: loc.keywords,
 });
 

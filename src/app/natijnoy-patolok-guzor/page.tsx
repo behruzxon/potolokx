@@ -6,9 +6,9 @@ import { buildMetadata } from "@/lib/seo";
 const loc = getLocationBySlug("natijnoy-patolok-guzor")!;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok G'uzor tumani | PotolokX",
+  title: "Natijnoy potolok G'uzor tumani | PotolokX — o'rnatish",
   description:
-    "G'uzor tumanida natijnoy potolok ustasi: xonadon, kafe va do'konlar uchun. Material va montajga yozma kafolat.",
+    "G'uzor tumanida natijnoy potolok o'rnatish xizmati. Xonadon, kafe va do'konlar uchun toza montaj va kafolat. Telegramda narx hisoblang.",
   path: "/natijnoy-patolok-guzor",
   keywords: loc.keywords,
 });

@@ -18,7 +18,7 @@ const homeFaq = [
   },
   {
     q: "Qaysi tumanlarga borasizlar?",
-    a: "Qashqadaryo viloyatining barcha tumanlariga: Qarshi, Shahrisabz, Kitob, Chiroqchi, Yakkabog', Koson, G'uzor, Qamashi, Muborak va boshqalariga.",
+    a: "Qashqadaryo viloyatining barcha tumanlariga: Qarshi, Shahrisabz, Kitob, Chiroqchi, Yakkabog', Koson, G'uzor, Qamashi, Muborak, Nishon, Kasbi, Mirishkor va Dehqonobod.",
   },
   {
     q: "Bir xonani necha soatda o'rnatasiz?",
@@ -36,18 +36,31 @@ const homeFaq = [
     q: "Qarshi va viloyat bo'ylab ishlaysizlarmi?",
     a: "Ha, Qarshi shahar va Qashqadaryo viloyatining barcha tumanlarida xizmat ko'rsatamiz. Yetib borish narxi PotolokXning hisobida.",
   },
+  {
+    q: "LED yoki gulli potolok qilasizlarmi?",
+    a: "Ha, LED yoritgichli, kontur yoritgichli, gulli print va ko'p darajali natijnoy potolok turlarini o'rnatamiz. Bolalar xonasi, zal, oshxona — har bir xona uchun mos dizayn tavsiya qilamiz.",
+  },
+  {
+    q: "Ruscha «натяжной потолок» deb qidirganlar uchun ham xizmat bormi?",
+    a: "Albatta. Natijnoy potolok va натяжной потолок bir xil xizmat — tarang mato yordamida zamonaviy shift yechimi. Qashqadaryo bo'ylab xizmat ko'rsatamiz.",
+  },
 ];
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Qashqadaryo bo'ylab | PotolokX",
+  title: "Natijnoy potolok Qashqadaryo bo'ylab | Vashpotolok",
   description:
-    "Qarshi va Qashqadaryo bo'ylab natijnoy potolok o'rnatamiz. Sifatli material, toza montaj, kafolat. Xona razmerini yuboring — narxni Telegram botda hisoblang.",
+    "Qarshi va Qashqadaryo bo'ylab natijnoy potolok o'rnatamiz. Xona razmerini yuboring — narxini Telegramda tez hisoblab beramiz. Sifatli material, toza montaj va kafolat.",
   path: "/",
   keywords: [
     "natijnoy potolok qashqadaryo",
     "natijnoy patalok qarshi",
+    "natijniy patalok",
+    "natyajnoy potolok",
     "натяжной потолок карши",
+    "натяжной потолок кашкадарья",
     "potolok ustasi qarshi",
+    "natijnoy patalok narxi",
+    "potolok montaj qashqadaryo",
   ],
 });
 
@@ -85,22 +98,24 @@ export default function HomePage() {
             <p>
               PotolokX — Qashqadaryo viloyatida natijnoy potolok o&apos;rnatish bilan
               shug&apos;ullanadigan jamoa. Qarshi shahridan boshlab Shahrisabz, Kitob,
-              Chiroqchi, Yakkabog&apos;, Koson va G&apos;uzorgacha — har bir hududda
-              jonli mijozlarimiz bor. Asosan uy-joy, ofis va savdo nuqtalari uchun
-              ishlaymiz.
+              Chiroqchi, Yakkabog&apos;, Koson, G&apos;uzor, Qamashi, Muborak, Nishon,
+              Kasbi, Mirishkor va Dehqonobodgacha — har bir hududda jonli mijozlarimiz bor.
+              Asosan uy-joy, ofis va savdo nuqtalari uchun ishlaymiz.
             </p>
             <p>
               Rus tilida bu xizmat &laquo;натяжной потолок&raquo; deb yuritiladi,
-              o&apos;zbek tilida esa ko&apos;pincha &laquo;natijnoy potolok&raquo;
-              yoki &laquo;natijnoy patalok&raquo; deb yoziladi — har qanday yozilishida
-              gap bitta narsa haqida: maxsus mato va profil bilan tortilib o&apos;rnatiladigan
-              zamonaviy shift turi. Mato turiga qarab matoviy, glyans, satin yoki LED
+              o&apos;zbek tilida esa turlicha yoziladi: &laquo;natijnoy potolok&raquo;,
+              &laquo;natijnoy patalok&raquo;, ba&apos;zan &laquo;natijniy patalok&raquo;
+              yoki &laquo;natyajnoy potolok&raquo; deb ham izlashadi. Hammasi bitta narsa
+              haqida — maxsus mato va profil bilan tortilib o&apos;rnatiladigan zamonaviy
+              shift yechimi. Mato turiga qarab matoviy, glyans, satin yoki LED
               yoritgichli variantlar bor.
             </p>
             <p>
-              Aniq narxni Telegram bot orqali 30 soniyada hisoblab olishingiz mumkin,
-              keyin o&apos;lchovga chiqamiz va kafolat bilan montaj qilamiz. Bir kunda
-              tugatish — bizning standart ish maromi.
+              Potolok ustasi kerak bo&apos;lsa, xona razmerini Telegram botga yuboring —
+              30 soniyada dastlabki narxni hisoblab beramiz. Keyin o&apos;lchovga chiqamiz
+              va kafolat bilan montaj qilamiz. Bir kunda tugatish — bizning standart ish
+              maromi.
             </p>
           </div>
         </div>

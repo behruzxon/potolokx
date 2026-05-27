@@ -3,13 +3,13 @@ import LocationPage from "@/components/LocationPage";
 import { getLocationBySlug } from "@/lib/locations";
 import { buildMetadata } from "@/lib/seo";
 
-const loc = getLocationBySlug("natijnoy-patolok-qarshi")!;
+const loc = getLocationBySlug("natijnoy-patolok-dehqonobod")!;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Qarshi | Narx, montaj va kafolat",
+  title: "Natijnoy potolok Dehqonobod tumani | PotolokX",
   description:
-    "Qarshida natijnoy potolok o'rnatish xizmati. Xona razmerini Telegramda yuboring, narxini tez hisoblab beramiz. Toza montaj va kafolat.",
-  path: "/natijnoy-patolok-qarshi",
+    "Dehqonobod tumanida natijnoy potolok o'rnatish. Tog'li hududga mos materiallar, toza montaj va kafolat. Narxni Telegramda hisoblab oling.",
+  path: "/natijnoy-patolok-dehqonobod",
   keywords: loc.keywords,
 });
 

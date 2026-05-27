@@ -68,6 +68,13 @@ export function localBusinessJsonLd(extra?: { areaServed?: string[] }) {
     "@type": "LocalBusiness",
     "@id": `${site.url}#business`,
     name: site.name,
+    alternateName: [
+      "Vashpotolok",
+      "PotolokX — Natijnoy potolok",
+      "Natijnoy patalok",
+      "Natijnoy potolok",
+      "Натяжной потолок",
+    ],
     legalName: site.legalName,
     image: `${site.url}/og-default.svg`,
     url: site.url,
@@ -75,6 +82,20 @@ export function localBusinessJsonLd(extra?: { areaServed?: string[] }) {
     email: site.email,
     description: site.description,
     priceRange: "$$",
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Natijnoy potolok xizmatlari",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Natijnoy potolok o'rnatish",
+            serviceType: "Stretch ceiling installation",
+          },
+        },
+      ],
+    },
     address: {
       "@type": "PostalAddress",
       streetAddress: "Mustaqillik ko'chasi",
@@ -113,6 +134,10 @@ export function localBusinessJsonLd(extra?: { areaServed?: string[] }) {
       "G'uzor",
       "Qamashi",
       "Muborak",
+      "Nishon",
+      "Kasbi",
+      "Mirishkor",
+      "Dehqonobod",
     ]).map((city) => ({ "@type": "City", name: city })),
     sameAs: [site.telegramUrl],
   };

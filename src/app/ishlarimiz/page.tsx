@@ -13,16 +13,18 @@ import {
 } from "@/components/Icons";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok ishlarimiz Qashqadaryo",
+  title: "Natijnoy potolok ishlarimiz | Qarshi va Qashqadaryo",
   description:
-    "Qarshi va Qashqadaryo bo'ylab natijnoy potolok ishlari. Gulli, LED, matoviy va zamonaviy potolok namunalarini ko'ring.",
+    "Qarshi va Qashqadaryo bo'ylab natijnoy potolok ishlari. Gulli, LED, matoviy va zamonaviy natijnoy patalok namunalarini ko'ring. Shunaqa dizayn kerak bo'lsa — razmer yuboring.",
   path: "/ishlarimiz",
   keywords: [
     "natijnoy potolok portfolio",
     "qarshi natijnoy potolok ishlari",
+    "natijnoy patalok namunalari",
     "potolokx ishlari",
     "gulli potolok namunasi",
     "led potolok namunasi",
+    "natijnoy potolok qashqadaryo ishlari",
   ],
 });
 

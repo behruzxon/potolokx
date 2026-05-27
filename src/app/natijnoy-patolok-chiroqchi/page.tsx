@@ -6,11 +6,14 @@ import { buildMetadata } from "@/lib/seo";
 const loc = getLocationBySlug("natijnoy-patolok-chiroqchi")!;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Chiroqchi tumani | PotolokX",
+  title: "Natijnoy potolok Chiroqchi tumani | PotolokX — o'rnatish",
   description:
-    "Chiroqchi tumanida natijnoy potolok ustasi: zal, oshxona, yotoqxona uchun. O'lchov bepul, sertifikatli material, kafolat.",
+    "Chiroqchi tumanida natijnoy potolok o'rnatish. Tuman bo'ylab o'lchovga chiqamiz — matoviy, LED va glyans variantlar. Telegramda narx so'rang.",
   path: "/natijnoy-patolok-chiroqchi",
-  keywords: loc.keywords,
+  keywords: [
+    ...loc.keywords,
+    "natijnoy potolok chiroqchi narxi",
+  ],
 });
 
 export default function Page() {

@@ -1,31 +1,25 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Hero from "@/components/Hero";
 import FinalCTA from "@/components/FinalCTA";
 import JsonLd from "@/components/JsonLd";
 import { buildMetadata, localBusinessJsonLd } from "@/lib/seo";
 import { site } from "@/lib/site";
+import { locations } from "@/lib/locations";
 import { ClockIcon, MapPinIcon, PhoneIcon, TelegramIcon } from "@/components/Icons";
 
 export const metadata: Metadata = buildMetadata({
   title: "Aloqa — PotolokX | Telefon, Telegram, manzil",
   description:
-    "PotolokX bilan bog'lanish: +998 90 886 66 66, Telegram bot @vashpotolokbot. Qarshi shahar, Qashqadaryo viloyati. Har kuni 09:00 — 21:00.",
+    "PotolokX bilan bog'lanish: +998 90 886 66 66, Telegram bot @vashpotolokbot. Qarshi shahar, Qashqadaryo viloyati. Natijnoy potolok bo'yicha har kuni 09:00 — 21:00.",
   path: "/aloqa",
-  keywords: ["potolokx aloqa", "natijnoy potolok qarshi telefon"],
+  keywords: [
+    "potolokx aloqa",
+    "natijnoy potolok qarshi telefon",
+    "potolok ustasi qarshi",
+    "натяжной потолок карши контакт",
+  ],
 });
-
-const serviceAreas = [
-  "Qarshi",
-  "Shahrisabz",
-  "Kitob",
-  "Chiroqchi",
-  "Yakkabog'",
-  "Koson",
-  "G'uzor",
-  "Qamashi",
-  "Muborak",
-  "Qashqadaryo bo'ylab",
-];
 
 export default function AloqaPage() {
   return (
@@ -119,7 +113,7 @@ export default function AloqaPage() {
           <div className="max-w-3xl">
             <span className="eyebrow">Xizmat hududi</span>
             <h2 className="heading-2 mt-3">
-              Qashqadaryo bo&apos;ylab xizmat ko&apos;rsatamiz
+              Qashqadaryo bo&apos;ylab natijnoy potolok xizmati
             </h2>
             <p className="lead mt-3">
               Qaysi tumanda bo&apos;lsangiz ham, xona razmerini Telegramga yuboring.
@@ -128,22 +122,24 @@ export default function AloqaPage() {
           </div>
 
           <ul className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-3">
-            {serviceAreas.map((area) => (
-              <li
-                key={area}
-                className="inline-flex items-center gap-2 rounded-2xl border border-ink-100 bg-white px-4 py-3 text-sm font-medium text-ink-800 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700"
-              >
-                <span
-                  aria-hidden
-                  className="h-1.5 w-1.5 flex-shrink-0 rounded-full bg-brand-500"
-                />
-                {area}
+            {locations.map((loc) => (
+              <li key={loc.slug}>
+                <Link
+                  href={loc.href}
+                  className="inline-flex items-center gap-2 rounded-2xl border border-ink-100 bg-white px-4 py-3 text-sm font-medium text-ink-800 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700 w-full"
+                >
+                  <span
+                    aria-hidden
+                    className="h-1.5 w-1.5 flex-shrink-0 rounded-full bg-brand-500"
+                  />
+                  {loc.name}
+                </Link>
               </li>
             ))}
           </ul>
 
           <p className="mt-5 text-sm text-ink-500">
-            Ro&apos;yxatda tumaningiz bo&apos;lmasa ham yozing — Qashqadaryo
+            Hududingizda natijnoy patalok kerakmi? Yozing — Qashqadaryo
             bo&apos;ylab xizmat ko&apos;rsatamiz.
           </p>
 

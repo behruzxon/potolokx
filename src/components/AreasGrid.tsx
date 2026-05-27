@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { locations, otherDistricts } from "@/lib/locations";
+import { locations } from "@/lib/locations";
 import { ArrowRightIcon, MapPinIcon } from "./Icons";
 
 export default function AreasGrid() {
@@ -53,8 +53,7 @@ export default function AreasGrid() {
               </div>
               <h3 className="heading-3 mt-5">{loc.name}</h3>
               <p className="mt-2 text-sm text-ink-600">
-                Natijnoy potolok — {loc.shortName}da o&apos;rnatish, kafolat va Telegram bot
-                orqali hisoblash.
+                {loc.shortName}da natijnoy potolok o&apos;rnatish — toza montaj, sifatli material va kafolat.
               </p>
               <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-brand-700">
                 Sahifaga o&apos;tish
@@ -65,7 +64,7 @@ export default function AreasGrid() {
         </div>
 
         <p className="mt-8 text-sm text-ink-500">
-          Qo&apos;shimcha tumanlarga ham chiqamiz: {otherDistricts.join(", ")}.
+          Qashqadaryo viloyatining barcha 14 ta shahar va tumaniga chiqamiz. Natijnoy patalok yoki potolok montaj — qaysi tumanda bo&apos;lsangiz ham Telegramda yozing.
         </p>
       </div>
     </section>

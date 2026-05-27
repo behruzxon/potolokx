@@ -6,11 +6,14 @@ import { buildMetadata } from "@/lib/seo";
 const loc = getLocationBySlug("natijnoy-patolok-kitob")!;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Kitob tumani | PotolokX",
+  title: "Natijnoy potolok Kitob tumani | O'rnatish va kafolat",
   description:
-    "Kitob tumanida natijnoy potolok o'rnatish xizmati. Matoviy, glyans, LED variantlar. Telegram bot orqali narx hisoblash va yozma kafolat.",
+    "Kitob tumanida uy va xonadonlar uchun natijnoy potolok. Sertifikatli material, toza montaj. Razmerini Telegramda yuboring — narxini hisoblab beramiz.",
   path: "/natijnoy-patolok-kitob",
-  keywords: loc.keywords,
+  keywords: [
+    ...loc.keywords,
+    "natijnoy potolok kitob narxi",
+  ],
 });
 
 export default function Page() {
