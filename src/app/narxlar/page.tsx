@@ -19,18 +19,18 @@ import {
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy patalok narxlari | Qarshi va Qashqadaryo bo'ylab",
+  title: "Qashqadaryoda natijnoy potolok narxlari | Natijnoy Patalok",
   description:
-    "Qarshi va Qashqadaryo bo'ylab natijnoy patalok narxini tez hisoblang. Xona razmerini Telegramda yuboring — material, montaj va dizayn bo'yicha maslahat beramiz. Narx m² hisobida.",
+    "Qarshi va Qashqadaryo bo'ylab natijnoy potolok narxini tez hisoblang. Xona razmerini Telegramda yuboring — material, montaj va dizayn bo'yicha maslahat beramiz.",
   path: "/narxlar",
   keywords: [
     "natijnoy potolok narxi",
     "natijnoy patalok narxi",
-    "natijnoy patalok qarshi narxi",
+    "qarshi natijnoy potolok narxi",
+    "qashqadaryoda potolok narxlari",
     "natijnoy potolok m2 narx",
     "натяжной потолок цена карши",
     "натяжной потолок нархи",
-    "potolok narxi qashqadaryo",
   ],
 });
 
@@ -151,8 +151,8 @@ export default function NarxlarPage() {
         eyebrow="Narxlar"
         title={
           <span className="[text-wrap:balance]">
-            Natijnoy potolok{" "}
-            <span className="text-brand-700">narxlari</span>
+            <span className="text-brand-700">Qashqadaryoda</span> natijnoy
+            potolok narxlari
           </span>
         }
         subtitle="Qarshi va Qashqadaryo bo'ylab natijnoy potolok narxi xona o'lchami, material turi, chiroq va dizaynga qarab hisoblanadi. Razmer yuboring — narxini tez aytamiz."
