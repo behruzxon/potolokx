@@ -25,7 +25,7 @@ export default function LocationPage({ location }: { location: Location }) {
     </>
   );
 
-  const subtitle = `${location.intro} ${location.name}da sifatli material, toza montaj va yozma kafolat.`;
+  const subtitle = `${location.intro} ${location.name}da sifatli material va toza montaj.`;
 
   return (
     <>

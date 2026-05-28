@@ -25,8 +25,8 @@ const homeFaq = [
     a: "Oddiy 1 ta xona 4-6 soatda tugaydi. LED yoritgich, ko'p darajali konstruksiya yoki katta maydonda 1-2 kun ketishi mumkin.",
   },
   {
-    q: "Kafolat bormi?",
-    a: "Ha. Material uchun 10 yilgacha, montaj uchun 2-3 yil yozma kafolat beriladi. Kafolat hujjati ish tugagandan keyin qo'lingizga beriladi.",
+    q: "Material qancha xizmat qiladi?",
+    a: "Sifatli sertifikatli material to'g'ri o'rnatilsa, yillar davomida xizmat qiladi — shaklini va rangini o'zgartirmaydi. Yevropa va Turkiya brendlari bilan ishlaymiz; qaysi material qaysi xona uchun mos kelishini tushuntirib beramiz.",
   },
   {
     q: "Telegram botda narx hisoblash mumkinmi?",
@@ -115,8 +115,8 @@ export default function HomePage() {
             </p>
             <p>
               Xona razmerini Telegram botga yuboring — 30 soniyada dastlabki narxni
-              hisoblab beramiz. Keyin o&apos;lchovga chiqamiz va kafolat bilan montaj
-              qilamiz. Bir kunda tugatish — standart ish maromi.
+              hisoblab beramiz. Keyin o&apos;lchovga chiqamiz va toza montaj qilamiz.
+              Bir kunda tugatish — standart ish maromi.
             </p>
             <p className="text-xs text-ink-500">
               Xizmat{" "}

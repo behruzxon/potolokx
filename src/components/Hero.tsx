@@ -22,7 +22,7 @@ type HeroProps = {
 const trust = [
   { icon: MapPinIcon, label: "Qarshi va viloyat bo'ylab" },
   { icon: SparkIcon, label: "Toza montaj" },
-  { icon: ShieldIcon, label: "Yozma kafolat" },
+  { icon: ShieldIcon, label: "Sifatli material" },
   { icon: CheckIcon, label: "1 kunda o'rnatish" },
 ];
 
@@ -137,8 +137,8 @@ function HeroVisual() {
                 <ShieldIcon className="h-5 w-5" />
               </span>
               <div>
-                <p className="text-sm font-semibold text-ink-950">10 yil kafolat</p>
-                <p className="text-xs text-ink-600">material uchun</p>
+                <p className="text-sm font-semibold text-ink-950">Sifatli material</p>
+                <p className="text-xs text-ink-600">Yevropa va Turkiya brendlari</p>
               </div>
             </div>
           </div>

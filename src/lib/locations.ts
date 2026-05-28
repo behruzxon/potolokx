@@ -23,7 +23,7 @@ export const qashqadaryoOverview: Location = {
   intro:
     "Qashqadaryo viloyatining barcha shahar va tumanlarida natijnoy patalok o'rnatamiz. Qarshidan boshlab Shahrisabz, Kitob, Chiroqchi, Yakkabog', Koson, G'uzor, Qamashi, Muborak, Nishon, Kasbi, Mirishkor va Dehqonobodgacha.",
   description:
-    "Qashqadaryo bo'ylab natijnoy potolok xizmati: o'lchov olishdan to montajgacha bir kunda. Ish boshlashdan oldin Telegram bot orqali narxni hisoblab beramiz, oxirida kafolat hujjati beriladi.",
+    "Qashqadaryo bo'ylab natijnoy potolok xizmati: o'lchov olishdan to montajgacha bir kunda. Ish boshlashdan oldin Telegram bot orqali narxni hisoblab beramiz, material sifati bo'yicha tushuntiramiz.",
   localTouches: [
     "Qashqadaryo bo'ylab chiqamiz, transport bizning hisobimizdan",
     "Viloyat ichidagi yetkazib berish bepul",
@@ -50,8 +50,8 @@ export const qashqadaryoOverview: Location = {
       a: "Xona o'lchamlari (uzunligi va eni), tanlangan material turi va qo'shimcha yoritgichlarga qarab hisoblanadi. Telegram botda dastlabki narxni o'zingiz ham olishingiz mumkin.",
     },
     {
-      q: "Kafolat beriladi mi?",
-      a: "Ha. Material va montaj uchun yozma kafolat beramiz. Tasodifiy nuqsonlar bo'lsa, bepul tuzatib beramiz.",
+      q: "Material sifatiga e'tibor berasizlarmi?",
+      a: "Albatta. Yevropa va Turkiya brendlari bilan ishlaymiz, har bir material sertifikatli. Qaysi xona uchun qaysi material to'g'ri kelishini tushuntirib beramiz.",
     },
   ],
   serviceArea: [
@@ -80,7 +80,7 @@ export const locations: Location[] = [
     type: "shahar",
     href: "/natijnoy-patolok-qarshi",
     intro:
-      "Qarshi shahridagi xonadon va ofislar uchun natijnoy potolok o'rnatamiz. O'lchov bepul, montaj bir kunda, kafolat yozma rasmiylashtiriladi.",
+      "Qarshi shahridagi xonadon va ofislar uchun natijnoy potolok o'rnatamiz. O'lchov bepul, montaj bir kunda, material sifatli.",
     description:
       "Qarshi shahrida 7 yildan ortiq vaqtdan beri natijnoy patalok bilan shug'ullanamiz. Yangi qurilgan binolarning ko'pchiligida bizning ishimiz bor. Matoviy, glyans, LED yoritgichli yoki print rasmli patalok — har qanday variantni tanlash mumkin.",
     localTouches: [
@@ -167,7 +167,7 @@ export const locations: Location[] = [
     type: "tuman",
     href: "/natijnoy-patolok-kitob",
     intro:
-      "Kitob tumanida natijnoy potolok o'rnatish xizmati. Toza ishlaydigan ustalar, sifatli material va yozma kafolat.",
+      "Kitob tumanida natijnoy potolok o'rnatish xizmati. Toza ishlaydigan ustalar va sifatli material.",
     description:
       "Kitob tumani markazidan tortib qishloqlargacha — butun tumanga chiqamiz. Matoviy, glyans, satin, LED yoritgichli natijnoy patalok variantlari mavjud.",
     localTouches: [
@@ -195,8 +195,8 @@ export const locations: Location[] = [
         a: "Asosan Yevropa va Turkiya brendlari — RuPo, MSD, LackFolie va boshqalar. Sertifikatli.",
       },
       {
-        q: "Ish kafolatlanganmi?",
-        a: "Ha, material va montaj uchun rasmiy kafolat beriladi.",
+        q: "Material qancha turadi?",
+        a: "Sifatli sertifikatli material bo'lsa, to'g'ri o'rnatilgan natijnoy potolok yillar davomida xizmat qiladi — shaklini va rangini o'zgartirmaydi.",
       },
     ],
     serviceArea: ["Kitob shahar", "Kitob tuman"],
@@ -299,7 +299,7 @@ export const locations: Location[] = [
     localTouches: [
       "Kosonga viloyat ichidan tez yetib boramiz",
       "Mahalliy mijozlar uchun chegirmalar",
-      "Hujjat va kafolatli ish",
+      "Material va montaj sifatiga e'tibor",
       "Telegram bot orqali narx kalkulyator",
     ],
     keywords: [
@@ -363,8 +363,8 @@ export const locations: Location[] = [
         a: "Ha, kerakli bo'lsa lyustra, LED va elektrik bog'lashlarni biz qilamiz.",
       },
       {
-        q: "Kafolat qancha vaqtga?",
-        a: "Material uchun 10 yilgacha, montaj uchun 2-3 yil kafolat beriladi.",
+        q: "Material qancha xizmat qiladi?",
+        a: "Sifatli sertifikatli material bo'lsa, to'g'ri o'rnatilgan natijnoy potolok yillar davomida xizmat qiladi. Qaysi brend qaysi xonaga to'g'ri kelishini biz tushuntirib beramiz.",
       },
     ],
     serviceArea: ["G'uzor shahar", "G'uzor tuman"],
@@ -377,7 +377,7 @@ export const locations: Location[] = [
     type: "tuman",
     href: "/natijnoy-patolok-qamashi",
     intro:
-      "Qamashi tumanida natijnoy patalok o'rnatish — toza ishchilik, sifatli material va yozma kafolat. Yetib boramiz.",
+      "Qamashi tumanida natijnoy patalok o'rnatish — toza ishchilik va sifatli material. Yetib boramiz.",
     description:
       "Qamashi tumanida yangi qurilayotgan xonadonlar va ta'mirdan chiqqan uylar uchun natijnoy potolok xizmati. Matoviy va glyans matolar, LED yoritgich va zamonaviy dizayn variantlari mavjud. Tumanning markazi va atrofdagi qishloqlarga tez yetib boramiz.",
     localTouches: [
@@ -408,8 +408,8 @@ export const locations: Location[] = [
         a: "Matoviy, glyans, satin va LED yoritgichli variantlar mavjud. Yevropa va Turkiya brendlari — sertifikatli sifat.",
       },
       {
-        q: "Ish tugagandan keyin kafolat beriladi mi?",
-        a: "Ha, material uchun 10 yilgacha, montaj uchun 2-3 yil yozma kafolat beramiz.",
+        q: "Material sifati qanday?",
+        a: "Yevropa va Turkiya brendlari — sertifikatli sifat. Qaysi material qaysi xona uchun mos kelishini tushuntirib beramiz.",
       },
     ],
     serviceArea: ["Qamashi shahar", "Qamashi tuman"],
@@ -467,7 +467,7 @@ export const locations: Location[] = [
     type: "tuman",
     href: "/natijnoy-patolok-nishon",
     intro:
-      "Nishon tumanida natijnoy potolok o'rnatish xizmati — sifatli material, tajribali ustalar va yozma kafolat.",
+      "Nishon tumanida natijnoy potolok o'rnatish xizmati — sifatli material va tajribali ustalar.",
     description:
       "Nishon tumani Qashqadaryoning janubiy qismida joylashgan. Jamoamiz Nishon markazi va atrofidagi qishloqlarga ham chiqadi. Uy-joy va hovlilarga matoviy, glyans va LED yoritgichli natijnoy patalok o'rnatamiz.",
     localTouches: [
@@ -497,8 +497,8 @@ export const locations: Location[] = [
         a: "Albatta. Telegram botga xona o'lchamlarini yuboring — bir daqiqada dastlabki narx chiqadi.",
       },
       {
-        q: "Nishonda kafolat bormi?",
-        a: "Ha, barcha tumanlarda bir xil — material uchun 10 yilgacha, montaj uchun 2-3 yil yozma kafolat.",
+        q: "Nishonda material sifati qanday?",
+        a: "Barcha tumanlarda bir xil sifatli sertifikatli material bilan ishlaymiz — Yevropa va Turkiya brendlari.",
       },
     ],
     serviceArea: ["Nishon shahar", "Nishon tuman"],
@@ -628,8 +628,8 @@ export const locations: Location[] = [
         a: "Yo'q, viloyat bo'ylab narx bir xil. Material va montaj uchun qo'shimcha transport narxi olinmaydi.",
       },
       {
-        q: "Dehqonobodda kafolat beriladi mi?",
-        a: "Ha. Barcha tumanlardagidek yozma kafolat — material uchun 10 yilgacha, montaj uchun 2-3 yil.",
+        q: "Dehqonobodda material bo'yicha tushuntirib berasizlarmi?",
+        a: "Albatta. Tog'li iqlimga mos materiallar va ularning xususiyatlarini batafsil tushuntirib beramiz. Sertifikatli brendlar bilan ishlaymiz.",
       },
     ],
     serviceArea: ["Dehqonobod shahar", "Dehqonobod tuman"],

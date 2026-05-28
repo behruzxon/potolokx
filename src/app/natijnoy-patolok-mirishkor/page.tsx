@@ -8,7 +8,7 @@ const loc = getLocationBySlug("natijnoy-patolok-mirishkor")!;
 export const metadata: Metadata = buildMetadata({
   title: "Natijnoy patalok Mirishkor tumani | O'rnatish va kafolat",
   description:
-    "Mirishkor tumanida natijnoy potolok o'rnatamiz. Matoviy, glyans, LED va gulli potolok variantlari. Toza montaj, yozma kafolat. Telegramda narx so'rang.",
+    "Mirishkor tumanida natijnoy potolok o'rnatamiz. Matoviy, glyans, LED va gulli potolok variantlari. Toza montaj va sifatli material. Telegramda narx so'rang.",
   path: "/natijnoy-patolok-mirishkor",
   keywords: loc.keywords,
 });

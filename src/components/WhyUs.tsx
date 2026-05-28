@@ -35,8 +35,8 @@ const items = [
   },
   {
     icon: ShieldIcon,
-    title: "Yozma kafolat",
-    desc: "Material uchun 10 yilgacha, montaj uchun 2-3 yil rasmiy kafolat beriladi.",
+    title: "Material sifati bo'yicha maslahat",
+    desc: "Qaysi material qaysi xonaga to'g'ri kelishini tushuntirib beramiz. Yevropa va Turkiya brendlari bilan ishlaymiz.",
   },
 ];
 

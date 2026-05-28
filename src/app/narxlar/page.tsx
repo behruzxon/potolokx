@@ -42,7 +42,7 @@ const tiers = [
       "Matoviy / glyans / satin mato",
       "Oq yoki tabiiy ranglar",
       "1 daraja klassik dizayn",
-      "Yozma kafolat",
+      "Sifatli sertifikatli material",
     ],
   },
   {
@@ -64,7 +64,7 @@ const tiers = [
       "Maxsus print mato",
       "Bolalar xonasi, kafe, zal uchun",
       "Naqsh va ranglar tanlovi keng",
-      "Yozma kafolat",
+      "Toza montaj va material sifatiga e'tibor",
     ],
   },
   {
@@ -74,7 +74,7 @@ const tiers = [
       "Yevropa brend matolari (MSD, LackFolie)",
       "Ko'p darajali konstruksiya",
       "Mehmonxona va biznes obyektlari uchun",
-      "Uzaytirilgan kafolat",
+      "Material sifati bo'yicha maslahat",
     ],
   },
 ];
