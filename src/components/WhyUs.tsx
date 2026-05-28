@@ -46,7 +46,7 @@ export default function WhyUs() {
       <div className="container">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-brand-200">
-            Nega PotolokX
+            Nega Natijnoy Patalok
           </span>
           <h2 className="heading-2 mt-3 !text-white">
             Mijoz uchun nima muhim bo&apos;lsa — biz shuni qilamiz

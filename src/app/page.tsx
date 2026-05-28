@@ -34,7 +34,7 @@ const homeFaq = [
   },
   {
     q: "Qarshi va viloyat bo'ylab ishlaysizlarmi?",
-    a: "Ha, Qarshi shahar va Qashqadaryo viloyatining barcha tumanlarida xizmat ko'rsatamiz. Yetib borish narxi PotolokXning hisobida.",
+    a: "Ha, Qarshi shahar va Qashqadaryo viloyatining barcha tumanlarida xizmat ko'rsatamiz. Yetib borish narxi bizning hisobimizda.",
   },
   {
     q: "LED yoki gulli potolok qilasizlarmi?",
@@ -47,13 +47,15 @@ const homeFaq = [
 ];
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Qashqadaryo bo'ylab | Vashpotolok",
+  title: "Natijnoy patalok Qashqadaryo | Narx va o'lchovga chiqish",
   description:
-    "Qarshi va Qashqadaryo bo'ylab natijnoy potolok o'rnatamiz. Xona razmerini yuboring — narxini Telegramda tez hisoblab beramiz. Sifatli material, toza montaj va kafolat.",
+    "Qashqadaryo bo'ylab natijnoy patalok o'rnatish xizmati. Qarshi va tumanlarda o'lchovga chiqamiz. Razmer yuboring — narxini Telegramda hisoblaymiz.",
   path: "/",
   keywords: [
-    "natijnoy potolok qashqadaryo",
+    "natijnoy patalok",
+    "natijnoy patalok qashqadaryo",
     "natijnoy patalok qarshi",
+    "natijnoy potolok qashqadaryo",
     "natijniy patalok",
     "natyajnoy potolok",
     "натяжной потолок карши",
@@ -71,14 +73,14 @@ export default function HomePage() {
       <JsonLd id="ld-faq-home" data={faqJsonLd(homeFaq)} />
 
       <Hero
-        eyebrow="Qashqadaryo bo'ylab natijnoy potolok"
+        eyebrow="Qashqadaryo bo'ylab natijnoy patalok"
         title={
           <span className="[text-wrap:balance]">
-            Natijnoy potolok{" "}
+            Natijnoy patalok{" "}
             <span className="text-brand-700">Qashqadaryo</span> bo&apos;ylab
           </span>
         }
-        subtitle="Qarshi va barcha tumanlarda zamonaviy natijnoy potolok o'rnatamiz. Xona razmerini yuboring — narxini tez hisoblab beramiz."
+        subtitle="Qarshi va barcha tumanlarda natijnoy patalok o'rnatamiz. Xona razmerini yuboring — narxini tez hisoblab beramiz."
       />
 
       <TrustStrip />
@@ -92,30 +94,41 @@ export default function HomePage() {
       <section className="py-12 sm:py-16 border-t border-ink-100 bg-white">
         <div className="container max-w-4xl">
           <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-ink-950">
-            PotolokX haqida qisqacha
+            Natijnoy Patalok haqida qisqacha
           </h2>
           <div className="mt-4 space-y-3 text-sm sm:text-base text-ink-600 leading-relaxed">
             <p>
-              PotolokX — Qashqadaryo viloyatida natijnoy potolok o&apos;rnatish bilan
-              shug&apos;ullanadigan jamoa. Qarshi shahridan boshlab Shahrisabz, Kitob,
-              Chiroqchi, Yakkabog&apos;, Koson, G&apos;uzor, Qamashi, Muborak, Nishon,
-              Kasbi, Mirishkor va Dehqonobodgacha — har bir hududda jonli mijozlarimiz bor.
-              Asosan uy-joy, ofis va savdo nuqtalari uchun ishlaymiz.
+              Natijnoy Patalok — Qashqadaryo viloyatida natijnoy patalok o&apos;rnatish
+              bilan shug&apos;ullanadigan jamoa. Qarshi shahridan boshlab Shahrisabz,
+              Kitob, Chiroqchi, Yakkabog&apos;, Koson, G&apos;uzor, Qamashi, Muborak,
+              Nishon, Kasbi, Mirishkor va Dehqonobodgacha — har bir hududda mijozlarimiz
+              bor. Asosan uy-joy, ofis va savdo nuqtalari uchun ishlaymiz.
             </p>
             <p>
               Rus tilida bu xizmat &laquo;натяжной потолок&raquo; deb yuritiladi,
-              o&apos;zbek tilida esa turlicha yoziladi: &laquo;natijnoy potolok&raquo;,
-              &laquo;natijnoy patalok&raquo;, ba&apos;zan &laquo;natijniy patalok&raquo;
-              yoki &laquo;natyajnoy potolok&raquo; deb ham izlashadi. Hammasi bitta narsa
-              haqida — maxsus mato va profil bilan tortilib o&apos;rnatiladigan zamonaviy
-              shift yechimi. Mato turiga qarab matoviy, glyans, satin yoki LED
-              yoritgichli variantlar bor.
+              o&apos;zbek tilida esa turlicha yoziladi: ko&apos;pchilik &laquo;natijnoy
+              patalok&raquo; deb yozadi, ba&apos;zan &laquo;natijnoy potolok&raquo; yoki
+              &laquo;natijniy patalok&raquo; deb ham izlashadi. Hammasi bitta narsa haqida
+              — maxsus mato va profil bilan tortilib o&apos;rnatiladigan zamonaviy shift
+              yechimi. Mato turiga qarab matoviy, glyans, satin yoki LED yoritgichli
+              variantlar bor.
             </p>
             <p>
-              Potolok ustasi kerak bo&apos;lsa, xona razmerini Telegram botga yuboring —
-              30 soniyada dastlabki narxni hisoblab beramiz. Keyin o&apos;lchovga chiqamiz
-              va kafolat bilan montaj qilamiz. Bir kunda tugatish — bizning standart ish
-              maromi.
+              Xona razmerini Telegram botga yuboring — 30 soniyada dastlabki narxni
+              hisoblab beramiz. Keyin o&apos;lchovga chiqamiz va kafolat bilan montaj
+              qilamiz. Bir kunda tugatish — standart ish maromi.
+            </p>
+            <p className="text-xs text-ink-500">
+              Xizmat{" "}
+              <a
+                href="https://vashpotolok.uz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-brand-700 hover:underline"
+              >
+                Vashpotolok
+              </a>{" "}
+              jamoasi tomonidan ko&apos;rsatiladi.
             </p>
           </div>
         </div>

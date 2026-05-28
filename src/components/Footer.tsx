@@ -19,12 +19,24 @@ export default function Footer() {
         <div className="space-y-4">
           <Link href="/" className="flex items-center gap-2 text-lg font-semibold">
             <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-brand-600 text-white">
-              <span className="text-sm font-bold">PX</span>
+              <span className="text-sm font-bold">NP</span>
             </span>
-            Potolok<span className="text-brand-600">X</span>
+            Natijnoy <span className="text-brand-600">Patalok</span>
           </Link>
           <p className="text-sm text-ink-600 leading-relaxed">
             {site.description}
+          </p>
+          <p className="text-xs text-ink-500 leading-relaxed">
+            Xizmat{" "}
+            <a
+              href={site.partnerUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-brand-700 hover:underline"
+            >
+              {site.partnerName}
+            </a>{" "}
+            jamoasi tomonidan ko&apos;rsatiladi.
           </p>
           <div className="flex flex-wrap gap-2">
             <a

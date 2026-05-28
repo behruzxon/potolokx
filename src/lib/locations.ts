@@ -21,7 +21,7 @@ export const qashqadaryoOverview: Location = {
   type: "shahar",
   href: "/natijnoy-patolok-qashqadaryo",
   intro:
-    "PotolokX — Qashqadaryo viloyatining barcha shahar va tumanlarida natijnoy potolok o'rnatamiz. Qarshidan boshlab Shahrisabz, Kitob, Chiroqchi, Yakkabog', Koson, G'uzor, Qamashi, Muborak, Nishon, Kasbi, Mirishkor va Dehqonobodgacha.",
+    "Qashqadaryo viloyatining barcha shahar va tumanlarida natijnoy patalok o'rnatamiz. Qarshidan boshlab Shahrisabz, Kitob, Chiroqchi, Yakkabog', Koson, G'uzor, Qamashi, Muborak, Nishon, Kasbi, Mirishkor va Dehqonobodgacha.",
   description:
     "Qashqadaryo bo'ylab natijnoy potolok xizmati: o'lchov olishdan to montajgacha bir kunda. Ish boshlashdan oldin Telegram bot orqali narxni hisoblab beramiz, oxirida kafolat hujjati beriladi.",
   localTouches: [
@@ -82,7 +82,7 @@ export const locations: Location[] = [
     intro:
       "Qarshi shahridagi xonadon va ofislar uchun natijnoy potolok o'rnatamiz. O'lchov bepul, montaj bir kunda, kafolat yozma rasmiylashtiriladi.",
     description:
-      "PotolokX Qarshi shahrida 7 yildan ortiq vaqtdan beri natijnoy potolok bilan shug'ullanadi. Yangi qurilgan binolarning ko'pchiligida bizning ishimiz bor. Matoviy, glyans, LED yoritgichli yoki print rasmli potolok — har qanday variantni tanlash mumkin.",
+      "Qarshi shahrida 7 yildan ortiq vaqtdan beri natijnoy patalok bilan shug'ullanamiz. Yangi qurilgan binolarning ko'pchiligida bizning ishimiz bor. Matoviy, glyans, LED yoritgichli yoki print rasmli patalok — har qanday variantni tanlash mumkin.",
     localTouches: [
       "Qarshi ichida o'lchovga 1-2 soat ichida chiqamiz",
       "Markaziy shahar, Bahoriston, Mustaqillik MFY va boshqa mahallalarda tajriba",
@@ -124,7 +124,7 @@ export const locations: Location[] = [
     type: "shahar",
     href: "/natijnoy-patolok-shahrisabz",
     intro:
-      "Shahrisabz shahrida natijnoy potolok ustasi kerakmi? PotolokX yetib boradi: o'lchov, material, montaj va kafolat — bir paketda.",
+      "Shahrisabz shahrida natijnoy patalok ustasi kerakmi? Yetib boramiz: o'lchov, material, montaj va kafolat — bir paketda.",
     description:
       "Shahrisabzning markaziy ko'chalari, yangi mikrorayonlari va shahar atrofidagi qishloqlarda ishlaymiz. Matoviy va glyans matolar, LED yoritgichli yechimlar, oshxona uchun namlikka chidamli variantlar bor.",
     localTouches: [
@@ -142,7 +142,7 @@ export const locations: Location[] = [
     faq: [
       {
         q: "Shahrisabzga chiqish narxi qo'shiladimi?",
-        a: "Yo'q. Qashqadaryo bo'ylab transport va yetib borish narxi PotolokXning hisobida.",
+        a: "Yo'q. Qashqadaryo bo'ylab transport va yetib borish narxi bizning hisobimizda.",
       },
       {
         q: "Shahrisabzda qaysi material ko'proq tanlanadi?",
@@ -169,7 +169,7 @@ export const locations: Location[] = [
     intro:
       "Kitob tumanida natijnoy potolok o'rnatish xizmati. Toza ishlaydigan ustalar, sifatli material va yozma kafolat.",
     description:
-      "Kitob tumani markazidan tortib qishloqlargacha — PotolokX butun tumanga chiqadi. Matoviy, glyans, satin, LED yoritgichli potolok variantlari mavjud.",
+      "Kitob tumani markazidan tortib qishloqlargacha — butun tumanga chiqamiz. Matoviy, glyans, satin, LED yoritgichli natijnoy patalok variantlari mavjud.",
     localTouches: [
       "Kitob markaziga 1 kun ichida chiqamiz",
       "Qishloq joylarga ham boramiz",
@@ -335,7 +335,7 @@ export const locations: Location[] = [
     type: "tuman",
     href: "/natijnoy-patolok-guzor",
     intro:
-      "G'uzor tumanida natijnoy potolok — toza, zamonaviy va arzon yechim. PotolokX bilan birinchi marta bo'lsayam, ishonchli ish qilamiz.",
+      "G'uzor tumanida natijnoy patalok — toza, zamonaviy va arzon yechim. Birinchi marta bo'lsayam, ishonchli ish qilamiz.",
     description:
       "G'uzor tumanidagi xonadonlar, kafelar va do'konlar uchun natijnoy potolok o'rnatamiz. Yoritgich, lyustra va dizaynni mijoz tanlaydi.",
     localTouches: [
@@ -377,7 +377,7 @@ export const locations: Location[] = [
     type: "tuman",
     href: "/natijnoy-patolok-qamashi",
     intro:
-      "Qamashi tumanida natijnoy potolok o'rnatish — toza ishchilik, sifatli material va yozma kafolat. PotolokX yetib boradi.",
+      "Qamashi tumanida natijnoy patalok o'rnatish — toza ishchilik, sifatli material va yozma kafolat. Yetib boramiz.",
     description:
       "Qamashi tumanida yangi qurilayotgan xonadonlar va ta'mirdan chiqqan uylar uchun natijnoy potolok xizmati. Matoviy va glyans matolar, LED yoritgich va zamonaviy dizayn variantlari mavjud. Tumanning markazi va atrofdagi qishloqlarga tez yetib boramiz.",
     localTouches: [
@@ -422,7 +422,7 @@ export const locations: Location[] = [
     type: "tuman",
     href: "/natijnoy-patolok-muborak",
     intro:
-      "Muborak shahrida natijnoy potolok kerakmi? PotolokX jamoasi yetib boradi — o'lchov, montaj va kafolat bir paketda.",
+      "Muborak shahrida natijnoy patalok kerakmi? Jamoamiz yetib boradi — o'lchov, montaj va kafolat bir paketda.",
     description:
       "Muborak shahri va tumani bo'ylab natijnoy potolok o'rnatamiz. Sanoat shahri sifatida Muborakda ofis va uy-joy talabi katta. Matoviy oq potolok, glyans, LED yoritgichli va ko'p darajali konstruksiyalar — barchasi mavjud. Shift uchun natijnoy potolok eng toza va zamonaviy yechim.",
     localTouches: [
@@ -469,7 +469,7 @@ export const locations: Location[] = [
     intro:
       "Nishon tumanida natijnoy potolok o'rnatish xizmati — sifatli material, tajribali ustalar va yozma kafolat.",
     description:
-      "Nishon tumani Qashqadaryoning janubiy qismida joylashgan. PotolokX jamoasi Nishon markazi va atrofidagi qishloqlarga ham chiqadi. Uy-joy va hovlilarga matoviy, glyans va LED yoritgichli natijnoy potolok o'rnatamiz.",
+      "Nishon tumani Qashqadaryoning janubiy qismida joylashgan. Jamoamiz Nishon markazi va atrofidagi qishloqlarga ham chiqadi. Uy-joy va hovlilarga matoviy, glyans va LED yoritgichli natijnoy patalok o'rnatamiz.",
     localTouches: [
       "Nishon markazi va qishloqlariga bepul yetib boramiz",
       "Hovli va xonadonlarga moslashgan montaj texnikasi",
@@ -513,7 +513,7 @@ export const locations: Location[] = [
     intro:
       "Kasbi tumani uchun natijnoy potolok — zamonaviy uy va xonadonlarga toza, chiroyli va kafolatli yechim.",
     description:
-      "Kasbi tumani bo'ylab natijnoy potolok xizmati. Yangi uy qurayotgan yoki remontga tayyorlanayotgan bo'lsangiz — PotolokX toza montaj va kafolat bilan ishlaydi. Matoviy, glyans va LED yoritgichli variantlar orasidan tanlang.",
+      "Kasbi tumani bo'ylab natijnoy patalok xizmati. Yangi uy qurayotgan yoki remontga tayyorlanayotgan bo'lsangiz — toza montaj va kafolat bilan ishlaymiz. Matoviy, glyans va LED yoritgichli variantlar orasidan tanlang.",
     localTouches: [
       "Kasbi va atrofdagi qishloqlarga bir kunda chiqamiz",
       "Yangi qurilayotgan uylarga maxsus moslashgan montaj",
@@ -554,13 +554,13 @@ export const locations: Location[] = [
     type: "tuman",
     href: "/natijnoy-patolok-mirishkor",
     intro:
-      "Mirishkor tumani bo'ylab natijnoy potolok xizmati. PotolokX tajribali ustalari bilan sifatli va toza montaj.",
+      "Mirishkor tumani bo'ylab natijnoy patalok xizmati. Tajribali ustalar bilan sifatli va toza montaj.",
     description:
       "Mirishkor tumanidagi uy-joylar va ob'ektlar uchun natijnoy potolok o'rnatamiz. Tuman aholi soniga nisbatan kichik bo'lsa ham, sifatli uy-joy xizmati har bir oilaga kerak. Matoviy, glyans, LED yoritgichli va gulli variantlar mavjud.",
     localTouches: [
       "Mirishkor markazi va tuman qishloqlariga bepul chiqamiz",
       "Kichik va katta xonalar — barchasi uchun mos yechim",
-      "Material olib kelish va montaj — barchasi PotolokX tomonidan",
+      "Material olib kelish va montaj — barchasi biz tomondan",
       "Narxni oldindan Telegram botda bilish mumkin",
       "Ishdan keyin xona toza qoldiriladi",
     ],
@@ -600,7 +600,7 @@ export const locations: Location[] = [
     intro:
       "Dehqonobod tumanida ham natijnoy potolok o'rnatamiz — sifatli mato, toza montaj va kafolat bilan.",
     description:
-      "Dehqonobod tumani Qashqadaryoning tog'li hududlaridan biri. PotolokX jamoasi Dehqonobodga ham yetib boradi — uylar, hovlilar va yangi qurilayotgan binolar uchun natijnoy potolok xizmati. Tog'li iqlimga mos materiallar — namlik va harorat o'zgarishiga chidamli matolar ishlatamiz.",
+      "Dehqonobod tumani Qashqadaryoning tog'li hududlaridan biri. Jamoamiz Dehqonobodga ham yetib boradi — uylar, hovlilar va yangi qurilayotgan binolar uchun natijnoy patalok xizmati. Tog'li iqlimga mos materiallar — namlik va harorat o'zgarishiga chidamli matolar ishlatamiz.",
     localTouches: [
       "Dehqonobod markazi va qishloqlariga chiqamiz",
       "Tog'li hududga mos namlikka chidamli materiallar",

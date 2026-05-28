@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 const loc = getLocationBySlug("natijnoy-patolok-yakkabog")!;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Yakkabog' | O'rnatish va kafolat — PotolokX",
+  title: "Natijnoy patalok Yakkabog' | O'rnatish va kafolat",
   description:
     "Yakkabog' tumanida natijnoy potolok o'rnatish. O'lchovga bepul chiqamiz, material va montaj kafolati. Telegramda razmer yuboring.",
   path: "/natijnoy-patolok-yakkabog",

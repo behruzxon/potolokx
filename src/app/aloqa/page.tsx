@@ -9,13 +9,13 @@ import { locations } from "@/lib/locations";
 import { ClockIcon, MapPinIcon, PhoneIcon, TelegramIcon } from "@/components/Icons";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Aloqa — PotolokX | Telefon, Telegram, manzil",
+  title: "Aloqa — Natijnoy Patalok | Telefon, Telegram, manzil",
   description:
-    "PotolokX bilan bog'lanish: +998 90 886 66 66, Telegram bot @vashpotolokbot. Qarshi shahar, Qashqadaryo viloyati. Natijnoy potolok bo'yicha har kuni 09:00 — 21:00.",
+    "Natijnoy Patalok bilan bog'lanish: +998 90 886 66 66, Telegram bot @vashpotolokbot. Qarshi shahar, Qashqadaryo viloyati. Natijnoy patalok bo'yicha har kuni 09:00 — 21:00.",
   path: "/aloqa",
   keywords: [
-    "potolokx aloqa",
-    "natijnoy potolok qarshi telefon",
+    "natijnoy patalok aloqa",
+    "natijnoy patalok qarshi telefon",
     "potolok ustasi qarshi",
     "натяжной потолок карши контакт",
   ],

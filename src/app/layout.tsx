@@ -15,8 +15,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "PotolokX — Natijnoy potolok Qashqadaryo bo'ylab",
-    template: "%s | PotolokX",
+    default: "Natijnoy patalok Qashqadaryo bo'ylab | Natijnoy Patalok",
+    template: "%s | Natijnoy Patalok",
   },
   description: site.description,
   keywords: site.keywords,
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     locale: "uz_UZ",
     siteName: site.name,
     url: site.url,
-    title: "PotolokX — Natijnoy potolok Qashqadaryo bo'ylab",
+    title: "Natijnoy patalok Qashqadaryo bo'ylab",
     description: site.description,
   },
   alternates: {

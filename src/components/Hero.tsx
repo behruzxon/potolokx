@@ -27,7 +27,7 @@ const trust = [
 ];
 
 export default function Hero({
-  eyebrow = "PotolokX — Qashqadaryo",
+  eyebrow = "Natijnoy Patalok — Qashqadaryo",
   title,
   subtitle,
   primaryCta,
@@ -78,7 +78,7 @@ export default function Hero({
               </Link>
             ) : showPortfolioLink ? (
               <a
-                href="https://t.me/vashpotolokuz"
+                href={site.telegramChannelUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-ghost w-full sm:w-auto"

@@ -53,10 +53,10 @@ export default function Header() {
           className="flex items-center gap-2 text-lg font-semibold tracking-tight text-ink-950"
         >
           <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-brand-600 text-white shadow-glow">
-            <span className="text-sm font-bold">PX</span>
+            <span className="text-sm font-bold">NP</span>
           </span>
           <span>
-            Potolok<span className="text-brand-600">X</span>
+            Natijnoy <span className="text-brand-600">Patalok</span>
           </span>
         </Link>
 
@@ -108,9 +108,9 @@ export default function Header() {
                 className="flex items-center gap-2 text-lg font-semibold"
               >
                 <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-brand-600 text-white">
-                  <span className="text-sm font-bold">PX</span>
+                  <span className="text-sm font-bold">NP</span>
                 </span>
-                Potolok<span className="text-brand-600">X</span>
+                Natijnoy <span className="text-brand-600">Patalok</span>
               </Link>
               <button
                 onClick={() => setOpen(false)}

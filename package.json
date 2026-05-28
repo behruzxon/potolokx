@@ -1,8 +1,8 @@
 {
-  "name": "potolokx",
+  "name": "natijnoy-patalok",
   "version": "1.0.0",
   "private": true,
-  "description": "PotolokX — natijnoy potolok Qashqadaryo bo'ylab",
+  "description": "Natijnoy Patalok — Qashqadaryo bo'ylab natijnoy patalok o'rnatish",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

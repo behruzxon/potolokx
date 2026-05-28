@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 const loc = getLocationBySlug("natijnoy-patolok-koson")!;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Natijnoy potolok Koson tumani | PotolokX — montaj xizmati",
+  title: "Natijnoy patalok Koson tumani | Montaj xizmati",
   description:
     "Koson tumanida natijnoy potolok o'rnatamiz. Yangi uy yoki remont — barchasi uchun. Telegram botda narx hisoblang, o'lchov bepul.",
   path: "/natijnoy-patolok-koson",

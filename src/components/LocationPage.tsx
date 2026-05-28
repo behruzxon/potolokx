@@ -25,7 +25,7 @@ export default function LocationPage({ location }: { location: Location }) {
     </>
   );
 
-  const subtitle = `${location.intro} PotolokX — ${location.name}da sifatli material, toza montaj va yozma kafolat.`;
+  const subtitle = `${location.intro} ${location.name}da sifatli material, toza montaj va yozma kafolat.`;
 
   return (
     <>
@@ -44,7 +44,7 @@ export default function LocationPage({ location }: { location: Location }) {
       />
 
       <Hero
-        eyebrow={`PotolokX — ${location.name}`}
+        eyebrow={`Natijnoy Patalok — ${location.name}`}
         title={heroTitle}
         subtitle={subtitle}
       />
@@ -122,7 +122,7 @@ export default function LocationPage({ location }: { location: Location }) {
       <PriceCalcCTA city={location.name} />
       <PortfolioGrid
         title={`${location.name}da bajargan ishlarimiz`}
-        subtitle={`${location.name} va atrofdagi xonadonlarda PotolokX o'rnatgan natijnoy potoloklar.`}
+        subtitle={`${location.name} va atrofdagi xonadonlarda o'rnatgan natijnoy patalok ishlari.`}
       />
       <WhyUs />
       <FAQ items={location.faq} />

@@ -12,8 +12,8 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
   <rect width="1200" height="630" fill="url(#glow)"/>
   <g font-family="Inter, system-ui, sans-serif" fill="#ffffff">
-    <text x="80" y="170" font-size="36" opacity="0.85">PotolokX</text>
-    <text x="80" y="290" font-size="84" font-weight="700">Natijnoy potolok</text>
+    <text x="80" y="170" font-size="36" opacity="0.85">Natijnoy Patalok</text>
+    <text x="80" y="290" font-size="84" font-weight="700">Natijnoy patalok</text>
     <text x="80" y="380" font-size="84" font-weight="700">Qashqadaryo bo‘ylab</text>
     <text x="80" y="470" font-size="32" opacity="0.85">Qarshi · Shahrisabz · Kitob · Chiroqchi · Yakkabog‘ · Koson · G‘uzor</text>
     <text x="80" y="540" font-size="28" opacity="0.7">+998 90 886 66 66 · t.me/vashpotolokbot</text>

@@ -46,11 +46,11 @@ export default function ServiceCards() {
         <div className="flex items-end justify-between gap-6 flex-wrap">
           <div className="max-w-2xl">
             <span className="eyebrow">Xizmatlar</span>
-            <h2 className="heading-2 mt-3">Natijnoy potolokning barcha turlari</h2>
+            <h2 className="heading-2 mt-3">Natijnoy patalokning barcha turlari</h2>
             <p className="lead mt-3">
-              PotolokX bir mavzuga emas, butun yo&apos;nalishga ixtisoslashgan: oddiy
-              matoviy potolokdan tortib LED va print yechimlargacha — barchasini bir
-              joyda taklif qilamiz.
+              Oddiy matoviy patalokdan tortib LED va print yechimlargacha — natijnoy
+              patalokning barcha turlari bir joyda. Har bir xona uchun mos variant
+              tanlaymiz.
             </p>
           </div>
         </div>

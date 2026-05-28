@@ -1,6 +1,7 @@
-# SEO Keyword Map — PotolokX / Vashpotolok
+# SEO Keyword Map — Natijnoy Patalok (Vashpotolok)
 
-Domen: https://vashpotolok.uz
+Domen: https://natijnoypatalok.uz
+Xizmat ko'rsatuvchi jamoa: Vashpotolok (https://vashpotolok.uz)
 
 ## Keyword jadval
 
@@ -41,7 +42,7 @@ Domen: https://vashpotolok.uz
 - natijnoy patalok, natijnoy potolok, natijniy patalok, natyajnoy potolok
 - натяжной потолок, натяжные потолки
 - potolok ustasi, patalok ustasi
-- PotolokX, Vashpotolok
+- Natijnoy Patalok, Vashpotolok
 
 ### Narxlar (/narxlar)
 - natijnoy potolok narxi, natijnoy patalok narxi
@@ -56,7 +57,7 @@ Domen: https://vashpotolok.uz
 - natijnoy potolok portfolio, natijnoy patalok namunalari
 
 ### Aloqa (/aloqa)
-- potolokx aloqa, natijnoy potolok qarshi telefon, potolok ustasi qarshi
+- natijnoy patalok aloqa, natijnoy patalok qarshi telefon, potolok ustasi qarshi
 
 ## Eslatma
 - Keyword stuffing qilmaslik kerak — har sahifada 1-2 ta ruscha variant yetarli
